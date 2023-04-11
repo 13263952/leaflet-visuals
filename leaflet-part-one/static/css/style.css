@@ -1,0 +1,52 @@
+#myMap{
+    height: 1000px;
+}
+.box {
+    float: left;
+    height: 12px;
+    width: 12px;
+    /* margin-bottom: 3px; */
+    margin-right: 3px;
+    /* margin-left: px; */
+    border: 1px;
+    clear: both;
+    line-height: .56;
+  }
+  
+  .red {
+    background-color: red;
+    margin-bottom: 15px;
+  }
+  
+  .greengreen {
+    background-color: #05f71d;
+  }
+  
+  .limegreen {
+    background-color: #d4ee00;
+  }
+
+  .yellow {
+    background-color: #eecc00;
+  }
+
+  .orange {
+    background-color: #ee9c00;
+  }
+
+  .darkorange{
+    background-color:#ea822c;
+  }
+
+ div {
+    background-color: white;
+    line-height: .55;
+ }
+
+ .leaflet-control-attribution.leaflet-control {
+    width:55px;
+    margin-bottom: 25px;
+ }
+ .leaflet-popup-content-wrapper{
+    line-break: .56;
+ }
