@@ -13,7 +13,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     print("Server received request for 'Home' page...")
-    return "Welcome to my 'Home' page!"
+    return flask.render_template('index.html')
 
 
 # 4. Define what to do when a user hits the /about route
